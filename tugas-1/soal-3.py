@@ -1,7 +1,7 @@
 #Program yang menentukan siswa lulus ujian atau tidak. Siswa dikatakan lulus apabila nilai ujian teori dan nilai ujian praktek adalah 70
 
-t = 69 #teori
-p = 69 #praktik
+t = float and int(input("Masukkan nilai ujian teori disini : ")) #teori
+p = float and int(input("Masukkan nilai ujian praktek disini : ")) #praktik
 kkm = 70 
 
 if t >= kkm and p >= kkm :
